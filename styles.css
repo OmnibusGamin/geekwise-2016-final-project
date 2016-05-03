@@ -1,0 +1,16 @@
+td{
+  border: 1px black solid;
+  border spacing: 0px;
+  padding: 52px;
+  font-size: 3em;
+}
+
+table{
+  border-spacing: 0px;
+  border: 1px black solid;
+  object-position: center;
+}
+
+.h1{
+  text-align: center;
+}
