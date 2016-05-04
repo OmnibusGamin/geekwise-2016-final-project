@@ -51,12 +51,115 @@ var mouseoversound16=createsoundbite("./piano/b5.mp3", "")
 var mouseoversound17=createsoundbite("./piano/c5.mp3", "")
 var mouseoversound18=createsoundbite("./piano/d5.mp3", "")
 
-function onmouseover () {
+//BUTTONS!!!!!!!!!!!
+function onmouseover1 () {
     mouseoversound1.playclip();
+	}
+function onmouseover2 () {
+	  mouseoversound2.playclip();
+	}
+function onmouseover3 () {
+    mouseoversound3.playclip();
+	}
+function onmouseover4 () {
+    mouseoversound4.playclip();
+	}
+function onmouseover5 () {
+    mouseoversound5.playclip();
+	}
+function onmouseover6 () {
+    mouseoversound6.playclip();
+	}
+function onmouseover7 () {
+    mouseoversound7.playclip();
+	}
+function onmouseover8 () {
+    mouseoversound8.playclip();
+				}
+function onmouseover9 () {
+		mouseoversound9.playclip();
 }
-document.onkeydown = function (e) {
+function onmouseover10 () {
+		mouseoversound10.playclip();
+}
+function onmouseover11 () {
+		mouseoversound11.playclip();
+}
+function onmouseover12 () {
+		mouseoversound12.playclip();
+}
+function onmouseover13 () {
+		mouseoversound13.playclip();
+}
+function onmouseover14 () {
+		mouseoversound14.playclip();
+}
+function onmouseover15 () {
+		mouseoversound15.playclip();
+}
+function onmouseover16 () {
+		mouseoversound16.playclip();
+}
+function onmouseover17 () {
+		mouseoversound17.playclip();
+}
+function onmouseover18 () {
+		mouseoversound18.playclip();
+}
+document.onkeydown = function (e)  {
     var keyCode = e.keyCode;
     if(keyCode == 65) {
-        onmouseover();
+        onmouseover1();
     }
+		if(keyCode == 83){
+			onmouseover2()
+		}
+		if(keyCode == 68){
+			onmouseover3()
+		}
+		if(keyCode == 70){
+			onmouseover4()
+		}
+		if(keyCode == 71){
+			onmouseover5()
+		}
+		if(keyCode == 72){
+			onmouseover6()
+		}
+		if(keyCode == 74){
+			onmouseover7()
+		}
+		if(keyCode == 75){
+			onmouseover8()
+		}
+		if(keyCode == 76){
+			onmouseover9()
+		}
+		if(keyCode == 90){
+			onmouseover10()
+		}
+		if(keyCode == 88){
+			onmouseover11()
+		}
+		if(keyCode == 67){
+			onmouseover12()
+		}
+		if(keyCode == 86){
+			onmouseover13()
+		}
+		if(keyCode == 66){
+			onmouseover14()
+		}
+		if(keyCode == 78){
+			onmouseover15()
+		}
+		if(keyCode == 77){
+			onmouseover16()
+		}
+		if(keyCode == 188){
+			onmouseover17()
+		}
+		if(keyCode == 190){
+			onmouseover18()
+		}
 };
