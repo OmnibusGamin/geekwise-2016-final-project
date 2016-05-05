@@ -103,6 +103,9 @@ function onmouseover16 () {
 function onmouseover17 () {
 		mouseoversound17.playclip();
 }
+function onmouseover18 () {
+		mouseoversound18.playclip();
+}
 
 
 document.onkeyup = function (e){
