@@ -3,6 +3,9 @@ td{
   border spacing: 0px;
   padding: 52px;
   font-size: 3em;
+  background-color: white;}
+  td:hover { background-color: black;
+    color: white;
 }
 
 table{

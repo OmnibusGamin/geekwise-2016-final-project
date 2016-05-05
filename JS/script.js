@@ -106,60 +106,168 @@ function onmouseover17 () {
 function onmouseover18 () {
 		mouseoversound18.playclip();
 }
+
 document.onkeydown = function (e)  {
     var keyCode = e.keyCode;
-    if(keyCode == 65) {
-        onmouseover1();
-    }
+    if(keyCode == 65){
+        onmouseover1()
+				document.getElementById("id1").style.backgroundColor = "black";
+				document.getElementById("id1").style.color = "white";}
+				else {
+            document.getElementById("id1").style.backgroundColor = "white";
+						document.getElementById("id1").style.color = "black";
+        }
+
 		if(keyCode == 83){
 			onmouseover2()
-		}
+			document.getElementById("id2").style.backgroundColor = "black";
+			document.getElementById("id2").style.color = "white";}
+			else {
+					document.getElementById("id2").style.backgroundColor = "white";
+					document.getElementById("id2").style.color = "black";
+			}
+
 		if(keyCode == 68){
 			onmouseover3()
-		}
+			document.getElementById("id3").style.backgroundColor = "black";
+			document.getElementById("id3").style.color = "white";}
+			else {
+					document.getElementById("id3").style.backgroundColor = "white";
+					document.getElementById("id3").style.color = "black";
+			}
+
 		if(keyCode == 70){
 			onmouseover4()
-		}
+			document.getElementById("id4").style.backgroundColor = "black";
+			document.getElementById("id4").style.color = "white";}
+			else {
+					document.getElementById("id4").style.backgroundColor = "white";
+					document.getElementById("id4").style.color = "black";
+			}
+
 		if(keyCode == 71){
 			onmouseover5()
-		}
+			document.getElementById("id5").style.backgroundColor = "black";
+			document.getElementById("id5").style.color = "white";}
+			else {
+					document.getElementById("id5").style.backgroundColor = "white";
+					document.getElementById("id5").style.color = "black";
+			}
+
 		if(keyCode == 72){
 			onmouseover6()
-		}
+			document.getElementById("id6").style.backgroundColor = "black";
+			document.getElementById("id6").style.color = "white";}
+			else {
+					document.getElementById("id6").style.backgroundColor = "white";
+					document.getElementById("id6").style.color = "black";
+			}
+
 		if(keyCode == 74){
 			onmouseover7()
-		}
+			document.getElementById("id7").style.backgroundColor = "black";
+			document.getElementById("id7").style.color = "white";}
+			else {
+					document.getElementById("id7").style.backgroundColor = "white";
+					document.getElementById("id7").style.color = "black";
+			}
+
 		if(keyCode == 75){
 			onmouseover8()
-		}
+			document.getElementById("id8").style.backgroundColor = "black";
+			document.getElementById("id8").style.color = "white";}
+			else {
+					document.getElementById("id8").style.backgroundColor = "white";
+					document.getElementById("id8").style.color = "black";
+			}
+
 		if(keyCode == 76){
 			onmouseover9()
-		}
+			document.getElementById("id9").style.backgroundColor = "black";
+			document.getElementById("id9").style.color = "white";}
+			else {
+					document.getElementById("id9").style.backgroundColor = "white";
+					document.getElementById("id9").style.color = "black";
+			}
+
 		if(keyCode == 90){
 			onmouseover10()
-		}
+			document.getElementById("id10").style.backgroundColor = "black";
+			document.getElementById("id10").style.color = "white";}
+			else {
+					document.getElementById("id10").style.backgroundColor = "white";
+					document.getElementById("id10").style.color = "black";
+			}
+
 		if(keyCode == 88){
 			onmouseover11()
-		}
+			document.getElementById("id11").style.backgroundColor = "black";
+			document.getElementById("id11").style.color = "white";}
+			else {
+					document.getElementById("id11").style.backgroundColor = "white";
+					document.getElementById("id11").style.color = "black";
+			}
+
 		if(keyCode == 67){
 			onmouseover12()
-		}
+			document.getElementById("id12").style.backgroundColor = "black";
+			document.getElementById("id12").style.color = "white";}
+			else {
+					document.getElementById("id12").style.backgroundColor = "white";
+					document.getElementById("id12").style.color = "black";
+			}
+
 		if(keyCode == 86){
 			onmouseover13()
-		}
+			document.getElementById("id13").style.backgroundColor = "black";
+			document.getElementById("id13").style.color = "white";}
+			else {
+					document.getElementById("id13").style.backgroundColor = "white";
+					document.getElementById("id13").style.color = "black";
+			}
+
 		if(keyCode == 66){
 			onmouseover14()
-		}
+			document.getElementById("id14").style.backgroundColor = "black";
+			document.getElementById("id14").style.color = "white";}
+			else {
+					document.getElementById("id14").style.backgroundColor = "white";
+					document.getElementById("id14").style.color = "black";
+			}
+
 		if(keyCode == 78){
 			onmouseover15()
-		}
+			document.getElementById("id15").style.backgroundColor = "black";
+			document.getElementById("id15").style.color = "white";}
+			else {
+					document.getElementById("id15").style.backgroundColor = "white";
+					document.getElementById("id15").style.color = "black";
+			}
+
 		if(keyCode == 77){
 			onmouseover16()
-		}
+			document.getElementById("id16").style.backgroundColor = "black";
+			document.getElementById("id16").style.color = "white";}
+			else {
+					document.getElementById("id16").style.backgroundColor = "white";
+					document.getElementById("id16").style.color = "black";
+			}
+
 		if(keyCode == 188){
 			onmouseover17()
-		}
+			document.getElementById("id17").style.backgroundColor = "black";
+			document.getElementById("id17").style.color = "white";}
+			else {
+					document.getElementById("id17").style.backgroundColor = "white";
+					document.getElementById("id17").style.color = "black";
+			}
+
 		if(keyCode == 190){
 			onmouseover18()
-		}
+			document.getElementById("id18").style.backgroundColor = "black";
+			document.getElementById("id18").style.color = "white";}
+			else {
+					document.getElementById("id18").style.backgroundColor = "white";
+					document.getElementById("id18").style.color = "black";
+			}
 };
