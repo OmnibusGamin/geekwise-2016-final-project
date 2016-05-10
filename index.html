@@ -4,13 +4,50 @@
   <meta charset="UTF-8">
   <title>Piano Grid</title>
   <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="IMG/logo.ico">
 </head>
 <body>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'/>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+<!--JQUERY-->
 
-  <div>
-    <h1 class="h1">KeyboardCoffee!</h1>
-    <p>Press a key to play or wiggle the mouse to make a sound!</p>
-  </div>
+
+<div class="contain-fluid">
+  <nav class="navbar navbar-default">
+      <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="#"><img src="" alt=""></a>
+   </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
+     <img class="logo" src="img/logo.jpg" alt="" />
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="http://omnibusgamin.github.io/">Back to Home</a></li>
+     </ul>
+   </div>
+    </nav>
+</div><!-- /.container-fluid -->
+</nav>
+
+<div class="background">
+<div>
+  <h1>1</h1>
+  <p id="p-1">Press a key to play or wiggle the mouse to make a sound!</p>
+</div>
   <table id="piano">
     <td id="id1" onmouseover="mouseoversound1.playclip()">A</td>
     <td id="id2" onmouseover="mouseoversound2.playclip()">S</td>
@@ -33,7 +70,67 @@
     <td id="id17" onmouseover="mouseoversound17.playclip()">,</td>
     <td id="id18" onmouseover="mouseoversound18.playclip()">.</td>
   </table>
+</div>
 
-<script src="JS/script.js"></script>
+<div class="bob"></div>
+
+<footer id="copyright">
+<div class="row"></div>
+<div class="col-sm-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061093963!2d-119.78796568538935!3d36.732069279232846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f5cb43%3A0xe56ff4273de1051!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1458698211121" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="col-sm-2 stuff"><address>
+  <strong>RESTAURANTE</strong><br>
+  700 Van Ness<br>
+  Fresno, CA 93721<br>
+  <abbr title="phone">p:</abbr>
+  (123) 456-7890
+</address>
+</div>
+<div class="col-sm-4 stuff">
+  <ul>
+    <li>Facebook <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a></li>
+    <li>Twitter <a href="https://twitter.com/?lang=en" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a></li>
+    <li>Github <a href="https://github.com/omnibusgamin" target="-blank">
+          <i class="fa fa-github"></i>
+        </a></li>
+    <li>AlexanderWHJennings@gmail.com</li>
+  </ul>
+</div>
+</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.css"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="JS/bootstrap.min.JS"></script>
+<script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                    if( $(this).hasClass("smooth-scroll")) {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                            if (target.length) {
+                                    $('html,body').animate({
+                                            scrollTop: target.offset().top
+                                    }, 1000);
+                                    return false;
+                            }
+                    }
+                }
+            });
+        });
+    </script>
+<script>
+  $(".navbar-nav a").on("click", function(){
+   $(".navbar-nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+  });
+  </script>
+<script src="JS/bootstrap.min.JS"></script>
+<script src="JS/script.JS"></script>
 </body>
 </html>

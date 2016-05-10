@@ -14,6 +14,75 @@ table{
   object-position: center;
 }
 
-.h1, p{
+#piano{
+  margin-left: 15px;
+}
+
+#p-1{
   text-align: center;
+  margin-top: 20px;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.row{
+  margin: 0px;
+}
+
+.logo{
+  height: 50px;
+  padding-left:10px;
+}
+
+.navbar-default{
+  position:absolute;
+  z-index: 10;
+  width: 100%;
+  background-color:#003b6f;
+  border:none;
+}
+
+.navbar-fixed-top{
+  background-color: #003b6f;
+}
+
+/*Footer Styles*/
+
+#copyright{
+  padding: 30px; 0px;
+  background-color: #003b6f;
+  color: #e6f2ff;
+  margin-top:0px;
+  min-height: 250px;
+}
+
+#copyright p{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#copyright a{
+  color: #e6f2ff;
+  margin:0px;
+  padding:0px;
+}
+
+ul{
+  list-style: none;
+}
+
+.stuff{
+  padding-top: 50px;
+}
+
+.background{
+  background-image: url(../IMG/sky.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bob{
+  margin: 30px, 0px, 30px;
 }
